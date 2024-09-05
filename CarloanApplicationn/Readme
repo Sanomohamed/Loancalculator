@@ -1,0 +1,30 @@
+# Car Loan Application
+
+Welcome to the Car Loan Application repository! This project includes a Java application for calculating car loans, featuring a graphical user interface (GUI) built with Swing.
+
+## Overview
+
+The repository contains the following components:
+
+- **`Carloan` Class**: This class handles the core logic of the car loan calculation, including the total interest, monthly payment, and a summary of the loan details.
+- **`NewJFrame` Class**: This class provides the graphical user interface (GUI) for the application, allowing users to input loan details and view the calculated results.
+
+## Features
+
+- Calculate the total loan amount and monthly payment based on the principal amount, down payment, interest rate, and loan duration.
+- Display a summary of the loan including amount, down payment, total loan, duration, interest rate, and monthly payment.
+- Simple validation to ensure the loan duration is one of the acceptable values (3, 5, 7, 9 years).
+
+## Files
+
+### 1. `Carloan.java`
+Contains the `Carloan` class which:
+- Initializes loan parameters.
+- Calculates the total interest and monthly payment.
+- Provides a method to display a formatted summary of the loan details.
+
+### 2. `NewJFrame.java`
+Contains the `NewJFrame` class which:
+- Provides the GUI for the application using Swing components.
+- Includes input fields for the loan amount, down payment, interest rate, and duration.
+- Contains a button to perform the loan calculation and display results.
