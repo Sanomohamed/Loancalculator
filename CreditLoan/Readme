@@ -1,0 +1,32 @@
+# Credit Loan Application
+
+Welcome to the Credit Loan Application repository! This project features a Java application designed to calculate credit card loans. 
+It includes a graphical user interface (GUI) built using Swing components.
+
+## Overview
+
+The repository contains the following components:
+
+- **`CreaditLoan.java`**: This class handles the core logic for credit loan calculations, including total interest, monthly payments, and generating a summary of the loan details.
+- **`NewJFrame.java`**: This class provides the graphical user interface (GUI) for the application, enabling users to input loan details and view the calculated results.
+
+## Features
+
+- Calculate the total loan amount and monthly payment based on the loan price, down payment, interest rate, and duration in years.
+- Display a summary of the loan including price, down payment, total loan amount, duration, interest rate, and monthly payment.
+
+## Files
+
+### 1. `CreaditLoan.java`
+
+Contains the `CreaditLoan` class which:
+- Initializes loan parameters.
+- Calculates the total interest and monthly payment.
+- Provides a method to display a formatted summary of the loan details.
+
+### 2. `NewJFrame.java`
+
+Contains the `NewJFrame` class which:
+- Provides the GUI for the application using Swing components.
+- Includes input fields for the loan price, down payment, interest rate, and duration.
+- Contains a button to perform the calculation and display results.
