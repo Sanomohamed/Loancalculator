@@ -1,0 +1,32 @@
+# House Loan Application
+
+Welcome to the House Loan Application repository! This project is a Java application that calculates house loan details based on user input. 
+It includes a graphical user interface (GUI) built using Swing components.
+
+## Overview
+
+The repository contains the following components:
+
+- **`HouseLoan.java`**: This class encapsulates the logic for house loan calculations, including total interest, monthly payments, and generating a summary of the loan details.
+- **`HouseloanFrame.java`**: This class provides the graphical user interface (GUI) for the application, enabling users to input loan details and view the calculated results.
+
+## Features
+
+- Calculate the total loan amount and monthly payment based on the house price, down payment, interest rate, and loan duration.
+- Display a summary of the loan including price, down payment, total loan amount, duration, interest rate, and monthly payment.
+
+## Files
+
+### 1. `HouseLoan.java`
+
+Contains the `HouseLoan` class which:
+- Initializes loan parameters.
+- Calculates the total interest and monthly payment.
+- Provides a method to display a formatted summary of the loan details.
+
+### 2. `HouseloanFrame.java`
+
+Contains the `HouseloanFrame` class which:
+- Provides the GUI for the application using Swing components.
+- Includes input fields for the house price, down payment, interest rate, and duration.
+- Contains a button to perform the calculation and display results.
